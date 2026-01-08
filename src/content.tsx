@@ -1,3 +1,19 @@
+import {
+  Capacitaciones,
+  Educacion,
+  ExperienciaProfesional,
+  ResumenProfesional,
+  TecnologiasHabilidades,
+} from "./components";
+
 export const Content = () => {
-  return <div>El contenido</div>;
+  return (
+    <>
+      <ResumenProfesional />
+      <ExperienciaProfesional />
+      <Educacion />
+      <Capacitaciones />
+      <TecnologiasHabilidades />
+    </>
+  );
 };
