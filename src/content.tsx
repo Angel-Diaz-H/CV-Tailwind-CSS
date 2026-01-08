@@ -12,8 +12,10 @@ export const Content = () => {
       <ResumenProfesional />
       <ExperienciaProfesional />
       <Educacion />
-      <Capacitaciones />
-      <TecnologiasHabilidades />
+      <div className="grid grid-cols-2 space-x-5">
+        <Capacitaciones />
+        <TecnologiasHabilidades />
+      </div>
     </div>
   );
 };

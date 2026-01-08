@@ -1,6 +1,7 @@
 export const Capacitaciones = () => {
   return (
     <div>
+      <h2 className="text-2xl">Capacitaciones.</h2>
       DevTalles | TypeScript: Tu completa guía y manual de mano. Noviembre 2025.
       DevTalles | JavaScript Moderno: Guia para dominar el lenguaje. Octubre
       2025. DevTalles | Programacion para principiantes - Primeros. Septiembre

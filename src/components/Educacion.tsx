@@ -1,6 +1,7 @@
 export const Educacion = () => {
   return (
     <div>
+      <h2 className="text-2xl">Educación</h2>
       Facultad de Contaduría Pública y Administración UANL. Licenciado en
       Tecnologías de Información | Junio 2022 - Diciembre 2026. Desarrollé un
       portal de incidencias utilizando Next.js para una empresa de nóminas,

@@ -1,7 +1,7 @@
 export const TecnologiasHabilidades = () => {
   return (
     <div>
-      <h2>Tecnologias y Habilidades.</h2>
+      <h2 className="text-2xl">Tecnologias y Habilidades.</h2>
       <p>
         Web frontend. JavaScript, TypeScript, React, Next.js, HTML, CSS
         (Tailwind, Bootstrap, ShadCN), Vite. Backend. Node.js, C# (.NET Core
