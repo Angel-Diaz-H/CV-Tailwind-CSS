@@ -22,7 +22,7 @@ export const ContactLi = ({
     <li className="flex items-center gap-x-2">
       <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-sky-600">
         <Icon
-          className="h-3.5 w-3.5 text-white"
+          className="h-3.5! w-3.5! shrink-0 text-white"
           fill={iconFill ? "currentColor" : "none"}
           stroke={iconFill ? "none" : "currentColor"}
           strokeWidth={iconFill ? 0 : 2}

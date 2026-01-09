@@ -1,2 +1,2 @@
-export { GithubIcon } from "./githubIcon";
+export { GithubIcon } from "./GitHubIcon";
 export { LinkedinIcon } from "./LinkedinIcon";
