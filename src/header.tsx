@@ -1,3 +1,4 @@
+import { DatosContacto } from "./components/DatosContacto";
 export const Header = () => {
   return (
     <header className="top-0 grid grid-cols-6 items-center">
@@ -11,6 +12,7 @@ export const Header = () => {
         <p className="text-xl">
           Administrador de Bases de Datos Junior | Estudiante en TI.
         </p>
+        <DatosContacto />
       </div>
     </header>
   );
