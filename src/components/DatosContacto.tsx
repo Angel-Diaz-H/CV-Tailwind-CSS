@@ -4,7 +4,7 @@ import { GithubIcon, LinkedinIcon } from "./icons";
 
 export const DatosContacto = () => {
   return (
-    <ul className="space-y-2">
+    <ul className="grid grid-cols-1 space-y-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
       <ContactLi
         Icon={House}
         iconFill={false}
