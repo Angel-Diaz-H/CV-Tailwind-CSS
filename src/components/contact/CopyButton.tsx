@@ -16,7 +16,7 @@ const variantMap: Record<Variant, string> = {
     "bg-white text-gray-900 border border-gray-200 hover:bg-gray-50 focus:ring-2 focus:ring-gray-300",
   outline:
     "bg-transparent text-gray-800 border border-gray-300 hover:bg-gray-50 focus:ring-2 focus:ring-gray-300",
-  muted: "bg-transparent text-gray-400 focus:ring-1 focus:ring-gray-100",
+  muted: "bg-transparent text-gray-300 focus:ring-1 focus:ring-gray-100",
 };
 
 const sizeMap: Record<"sm" | "md", string> = {
