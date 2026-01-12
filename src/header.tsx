@@ -8,7 +8,7 @@ export const Header = () => {
         alt="Angel Díaz"
       />
       <div className="col-span-5 space-y-1">
-        <h1 className="text-2xl">Angel Ignacio Díaz Hernández.</h1>
+        <h1 className="mb-1">Angel Ignacio Díaz Hernández.</h1>
         <p className="mb-3 text-xl">
           Administrador de Bases de Datos Junior | Estudiante en TI.
         </p>

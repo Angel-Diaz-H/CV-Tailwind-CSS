@@ -4,3 +4,12 @@
 @theme {
   --font-poppins: "Poppins", sans-serif;
 }
+
+@layer base {
+  h1 {
+    @apply font-poppins text-3xl font-semibold;
+  }
+  h2 {
+    @apply font-poppins text-2xl font-semibold text-sky-600;
+  }
+}
