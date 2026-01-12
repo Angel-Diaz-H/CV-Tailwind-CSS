@@ -1,4 +1,5 @@
 import type { ComponentType, ReactNode } from "react";
+import { CopyButton } from "./CopyButton";
 
 interface ContactLiProps {
   Icon: ComponentType<React.SVGProps<SVGSVGElement>>;
@@ -6,6 +7,7 @@ interface ContactLiProps {
   href?: string;
   children: ReactNode;
   openInNewTab?: boolean;
+  copyValue?: string;
 }
 
 export const ContactLi = ({
@@ -14,6 +16,7 @@ export const ContactLi = ({
   href,
   children,
   openInNewTab = true,
+  copyValue,
 }: ContactLiProps) => {
   const target = openInNewTab ? "_blank" : undefined;
   const rel = openInNewTab ? "noopener noreferrer" : undefined;
@@ -28,18 +31,29 @@ export const ContactLi = ({
           strokeWidth={iconFill ? 0 : 2}
         />
       </div>
-      {href ? (
-        <a
-          href={href}
-          target={target}
-          rel={rel}
-          className="transition-colors hover:text-sky-700"
-        >
-          {children}
-        </a>
-      ) : (
-        <span>{children}</span>
-      )}
+      <div className="flex items-center gap-x-2">
+        {href ? (
+          <a
+            href={href}
+            target={target}
+            rel={rel}
+            className="transition-colors hover:text-sky-700"
+          >
+            {children}
+          </a>
+        ) : (
+          <span>{children}</span>
+        )}
+
+        {copyValue && (
+          <CopyButton
+            value={copyValue}
+            size="sm"
+            variant="muted"
+            ariaLabel={`Copiar ${String(children)}`}
+          />
+        )}
+      </div>
     </li>
   );
 };

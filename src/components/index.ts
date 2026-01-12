@@ -4,3 +4,4 @@ export { Educacion } from "./Educacion";
 export { ExperienciaProfesional } from "./ExperienciaProfesional";
 export { ResumenProfesional } from "./ResumenProfesional";
 export { TecnologiasHabilidades } from "./TecnologiasHabilidades";
+export { CopyButton } from "./contact/CopyButton";
