@@ -1,10 +1,11 @@
 import { DatosContacto } from "./components/DatosContacto";
+import fotoPerfil from "../src/assets/angel.png";
 export const Header = () => {
   return (
     <header className="top-0 grid grid-cols-1 items-center space-y-1 sm:grid-cols-1 md:grid-cols-6 md:gap-5 md:pb-3 lg:grid-cols-6 lg:gap-5 lg:pb-3 xl:grid-cols-6 xl:gap-5 xl:pb-3">
       <img
         className="col-span-1 mx-auto aspect-square w-full max-w-30 rounded-full bg-sky-500 object-cover text-center"
-        src="/angel.png"
+        src={fotoPerfil}
         alt="Angel Díaz"
       />
       <div className="col-span-5 space-y-1">
