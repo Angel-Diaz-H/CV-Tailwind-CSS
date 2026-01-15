@@ -24,4 +24,7 @@
   li {
     @apply font-poppins text-sm transition-all sm:text-sm md:text-base lg:text-base xl:text-base;
   }
+  a {
+    @apply font-poppins text-sm transition-all hover:text-sky-700 sm:text-sm md:text-base lg:text-base xl:text-base;
+  }
 }
