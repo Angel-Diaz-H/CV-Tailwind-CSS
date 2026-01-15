@@ -1,4 +1,4 @@
-import { House, Mail, Phone } from "lucide-react";
+import { FileCode, House, Mail, Phone } from "lucide-react";
 import { ContactLi } from "./contact/ContactLi";
 import { GithubIcon, LinkedinIcon } from "./icons";
 
@@ -40,6 +40,14 @@ export const DatosContacto = () => {
         children="Angel-Diaz-H"
         href="https://github.com/Angel-Diaz-H"
         copyValue="https://github.com/Angel-Diaz-H"
+        openInNewTab={true}
+      />
+      <ContactLi
+        Icon={FileCode}
+        iconFill={false}
+        children="Curriculum Vitae"
+        href="https://angel-diaz-h.github.io/CV-Tailwind-CSS/"
+        copyValue="https://angel-diaz-h.github.io/CV-Tailwind-CSS/"
         openInNewTab={true}
       />
     </ul>
