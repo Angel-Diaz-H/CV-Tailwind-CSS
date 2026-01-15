@@ -1,7 +1,7 @@
 export const ResumenProfesional = () => {
   return (
     <div className="space-y-2">
-      <h2 className="text-2xl">Resumen Profesional.</h2>
+      <h2 className="">Resumen Profesional.</h2>
       <div className="ml-2">
         <p>
           Profesional en Tecnologías de Información enfocado en administración

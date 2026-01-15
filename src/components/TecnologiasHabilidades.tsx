@@ -1,7 +1,7 @@
 export const TecnologiasHabilidades = () => {
   return (
     <div>
-      <h2 className="text-2xl">Tecnologias y Habilidades.</h2>
+      <h2>Tecnologias y Habilidades.</h2>
       <div className="ml-2 space-y-2 py-2">
         <div>
           <h3 className="font-bold">Web Frontend.</h3>

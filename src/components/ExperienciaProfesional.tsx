@@ -1,7 +1,7 @@
 export const ExperienciaProfesional = () => {
   return (
-    <div className="">
-      <h2 className="text-2xl">Experiencia Profesional.</h2>
+    <div>
+      <h2>Experiencia Profesional.</h2>
       <div className="ml-2">
         <h3 className="font-bold">
           Casas Javer | Database Intern (DBA Junior).

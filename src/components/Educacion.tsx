@@ -1,7 +1,7 @@
 export const Educacion = () => {
   return (
     <div>
-      <h2 className="text-2xl">Educación</h2>
+      <h2>Educación</h2>
       <div className="ml-2">
         <h3 className="font-bold">
           Facultad de Contaduría Pública y Administración UANL.

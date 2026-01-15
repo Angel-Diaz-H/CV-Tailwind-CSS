@@ -1,7 +1,7 @@
 export const Capacitaciones = () => {
   return (
     <div>
-      <h2 className="text-2xl">Capacitaciones.</h2>
+      <h2>Capacitaciones.</h2>
       <div className="ml-2 space-y-1 py-2">
         <div>
           <h3 className="font-bold">DevTalles.</h3>
